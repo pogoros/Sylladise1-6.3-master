@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylladise1.3", "Sylladise1.3.csproj", "{8045CB90-C7F9-4A3F-8D9F-B193483384E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Release|iPhone.Build.0 = Release|iPhone
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{8045CB90-C7F9-4A3F-8D9F-B193483384E4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

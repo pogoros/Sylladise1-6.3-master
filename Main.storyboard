@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="61" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" background="Screen Shot 2016-04-16 at 4.53.29 PM.png" placeholder="Email">
+                                <rect key="frame" x="83" y="356" width="224" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="62" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" background="Screen Shot 2016-04-08 at 2.04.22 AM.png" placeholder="Password">
+                                <rect key="frame" x="83" y="416" width="224" height="30"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="63" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="104" y="560" width="167" height="40"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Sign Up" backgroundImage="Screen Shot 2016-04-16 at 4.53.32 PM.png">
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="0" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnSignUp_TouchUpInside:" destination="BYZ-38-t0r" id="64" eventType="touchUpInside"/>
+                                    <segue id="905" destination="76" kind="push"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="65" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" hasAttributedTitle="YES">
+                                <rect key="frame" x="104" y="495" width="167" height="38"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                                <state key="normal" backgroundImage="Screen Shot 2016-04-16 at 4.53.32 PM.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login">
+                                            <attributes>
+                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <font key="NSFont" name="Optima-Bold" family="Optima" size="17"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="BtnLogin_TouchUpInside:" destination="BYZ-38-t0r" id="956" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="909" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Sylladise" textAlignment="center" editable="NO" selectable="NO">
+                                <rect key="frame" x="0.0" y="108" width="375" height="111"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="75"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                        <color key="tintColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="61" id="name-outlet-61"/>
+                        <outlet property="txtPassword" destination="62" id="name-outlet-62"/>
+                        <outlet property="btnSignUp" destination="63" id="name-outlet-63"/>
+                        <outlet property="btnLogin" destination="65" id="name-outlet-65"/>
+                    </connections>
+                    <navigationItem id="510" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="-740"/>
+        </scene>
+        <scene sceneID="5">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <rect key="frame" x="0.0" y="20" width="430" height="44"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1324" destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6" y="-271"/>
+        </scene>
+        <scene sceneID="31">
+            <objects>
+                <viewController id="26" sceneMemberID="viewController" customClass="HomeController" storyboardIdentifier="home">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="19"/>
+                        <viewControllerLayoutGuide type="bottom" id="20"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="32">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Welcome" lineBreakMode="tailTruncation" minimumFontSize="10" id="967" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="45" y="77" width="123" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="978" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Mu.jpg">
+                                <rect key="frame" x="0.0" y="106" width="375" height="219"/>
+                            </imageView>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1431" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="318" width="375" height="76"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Add Classes" backgroundImage="Screen Shot 2016-04-16 at 4.53.29 PM.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="1568" destination="1525" kind="push"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1432" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="393" width="375" height="83"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Upload Syllabus" backgroundImage="Screen Shot 2016-04-16 at 4.53.32 PM.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="1687" destination="1573" kind="push"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1513" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="-4" y="476" width="379" height="82"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal" title="iCal Upload" backgroundImage="Screen Shot 2016-04-16 at 4.53.29 PM.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="1814" destination="1728" kind="push"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1514" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="558" width="375" height="78"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="30"/>
+                                <state key="normal" backgroundImage="Screen Shot 2016-04-16 at 4.53.32 PM.png" title="View Coursework">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="1723" destination="1692" kind="push"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1515" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="3" y="637" width="372" height="30"/>
+                                <state key="normal" title="About Us">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                            </button>
+                        </subviews>
+                    </view>
+                    <tabBarItem key="tabBarItem" id="33" selectedImage="Screen Shot 2016-04-17 at 2.59.11 PM.png" tag="0" systemItem="more">
+                        <accessibilityConfiguration key="accessibilityConfiguration">
+                            <isElement key="isElement" value="NO"/>
+                            <traits key="traits"/>
+                        </accessibilityConfiguration>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="lblWelcome" destination="967" id="name-outlet-967"/>
+                        <outlet property="Add" destination="33" id="name-outlet-33"/>
+                        <outlet property="btnAdd" destination="1431" id="name-outlet-1431"/>
+                    </connections>
+                    <navigationItem id="1506" key="navigationItem"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="-32"/>
+        </scene>
+        <scene sceneID="75">
+            <objects>
+                <viewController id="76" sceneMemberID="viewController" customClass="SignUpController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="73"/>
+                        <viewControllerLayoutGuide type="bottom" id="74"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="77">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="145" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="First Name">
+                                <rect key="frame" x="83" y="160" width="199" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="146" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Last Name">
+                                <rect key="frame" x="83" y="221" width="199" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="147" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Email">
+                                <rect key="frame" x="83" y="292" width="199" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="148" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Password">
+                                <rect key="frame" x="83" y="362" width="199" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="149" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Confirm Password">
+                                <rect key="frame" x="83" y="438" width="199" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="150" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="121" y="543" width="123" height="30"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Create Account" backgroundImage="Screen Shot 2016-04-16 at 4.53.32 PM.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnCreate_TouchUpInside:" destination="76" id="266" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="txtFirstName" destination="145" id="name-outlet-145"/>
+                        <outlet property="txtLastName" destination="146" id="name-outlet-146"/>
+                        <outlet property="txtEmail" destination="147" id="name-outlet-147"/>
+                        <outlet property="txtPassword" destination="148" id="name-outlet-148"/>
+                        <outlet property="txtConfirmPassword" destination="149" id="name-outlet-149"/>
+                        <outlet property="btnCreate" destination="150" id="name-outlet-150"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201" y="-1054"/>
+        </scene>
+        <scene sceneID="1330">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="1331" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1334">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <rect key="frame" x="0.0" y="20" width="430" height="44"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1507" destination="26" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1335" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-35"/>
+        </scene>
+        <scene sceneID="1524">
+            <objects>
+                <tableViewController id="1525" sceneMemberID="viewController" customClass="ClassTable">
+                    <tableView key="view" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1526">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="1529" rowHeight="44">
+                                <rect key="frame" x="0.0" y="22" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1529" id="1530">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1525" id="1527"/>
+                            <outlet property="delegate" destination="1525" id="1528"/>
+                        </connections>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute keyPath="accessibilityIdentifier" type="string" value="TableCell"/>
+                        </userDefinedRuntimeAttributes>
+                        <color key="separatorColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                        <color key="sectionIndexBackgroundColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+                        <color key="sectionIndexColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1531" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2124" y="-34"/>
+        </scene>
+        <scene sceneID="1572">
+            <objects>
+                <viewController id="1573" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1570"/>
+                        <viewControllerLayoutGuide type="bottom" id="1571"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1574">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1575" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673" y="-824"/>
+        </scene>
+        <scene sceneID="1691">
+            <objects>
+                <viewController id="1692" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1689"/>
+                        <viewControllerLayoutGuide type="bottom" id="1690"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1693">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1694" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="784"/>
+        </scene>
+        <scene sceneID="1727">
+            <objects>
+                <viewController id="1728" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1725"/>
+                        <viewControllerLayoutGuide type="bottom" id="1726"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1729">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1730" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2120" y="792"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="Screen Shot 2016-04-08 at 2.04.22 AM.png" width="11" height="7"/>
+        <image name="Screen Shot 2016-04-16 at 4.53.29 PM.png" width="25" height="22"/>
+        <image name="Screen Shot 2016-04-16 at 4.53.32 PM.png" width="23" height="28"/>
+        <image name="Mu.jpg" width="516" height="290"/>
+        <image name="Screen Shot 2016-04-17 at 2.59.11 PM.png" width="31" height="28"/>
+        <image name="LogoScopic.png" width="2000" height="2000"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+    </resources>
+    <color key="tintColor" colorSpace="calibratedRGB" red="1" green="0.4" blue="0.4" alpha="1"/>
+</document>

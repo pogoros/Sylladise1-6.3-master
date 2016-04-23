@@ -1,0 +1,60 @@
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/Main.storyboardc/76-view-77.nib
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-76.nib
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/build-iphone7.2-9.3.1/actool/partial-info.plist
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/build-iphone7.2-9.3.1/actool/asset-manifest.plist
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/optimized/Screen Shot 2016-04-08 at 2.04.22 AM.png
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/optimized/Screen Shot 2016-04-16 at 4.53.29 PM.png
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/optimized/Screen Shot 2016-04-16 at 4.53.32 PM.png
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/optimized/
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/bin/iPhone/Debug/Sylladise1.3.exe.mdb
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/bin/iPhone/Debug/Sylladise1.3.exe
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/Sylladise1.3.exe
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/obj/iPhone/Debug/Sylladise1.3.exe.mdb
+/Users/mlk93/Projects/Sylladise1.3/Sylladise1.3/bin/iPhone/Debug/Parse.iOS.dll
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/26-view-32.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/28-view-36.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/76-view-77.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/TabControllerID.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UINavigationController-6.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-76.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/home.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Screen Shot 2016-04-08 at 2.04.22 AM.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Screen Shot 2016-04-16 at 4.53.29 PM.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Screen Shot 2016-04-16 at 4.53.32 PM.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Screen Shot 2016-04-17 at 2.59.11 PM.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/
+/Users/mlk93/Downloads/Sylladise1-6.3-master/bin/iPhone/Debug/Sylladise1.3.exe.mdb
+/Users/mlk93/Downloads/Sylladise1-6.3-master/bin/iPhone/Debug/Sylladise1.3.exe
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/Sylladise1.3.exe
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/Sylladise1.3.exe.mdb
+/Users/mlk93/Downloads/Sylladise1-6.3-master/bin/iPhone/Debug/Parse.iOS.dll
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-28.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/1525-view-1526.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/1573-view-1574.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/1692-view-1693.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/1728-view-1729.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UITableViewController-1525.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-1573.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-1692.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/ibtool/Main.storyboardc/UIViewController-1728.nib
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/build-iphone7.2-9.3.1/actool/partial-info.plist
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/build-iphone7.2-9.3.1/actool/asset-manifest.plist
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/LogoScopic.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Icon-60@2x.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Default@2x.png
+/Users/mlk93/Downloads/Sylladise1-6.3-master/obj/iPhone/Debug/optimized/Default-568h@2x.png
